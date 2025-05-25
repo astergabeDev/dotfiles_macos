@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Gabriel Fernandes
+	email = 65908248+astergabeDev@users.noreply.github.com
+# Please adapt and uncomment the following lines:
+#	name = Gabriel Fernandes
+#	email = gabrielfernandes@Gabriels-MacBook-Pro.local
+[pull]
+	rebase = false
