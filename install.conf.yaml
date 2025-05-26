@@ -1,15 +1,20 @@
-- defaults:
+- defaults:   
     link:
       relink: true
 
 - clean: ['~']
 
 - link:
-#    ~/.vim: vim
-    ~/.zshrc: zshrc
+#   ~/.emacs.d:
+#   ~/.emacs: 
+    ~/.bash:
+    ~/.bashrc:
+    ~/.vim:
+    ~/.vimrc:
+    ~/.zshrc:
+    ~/.gitconfig:
+    ~/.config/kitty/kitty.conf: kitty/kitty.conf
 - create:
-    - ~/downloads
-    - ~/.vim/undo-history
-
-# - shell:
-#  - [git submodule update --init --recursive, Installing submodules]
+    
+- shell:
+#   - [git submodule update --init --recursive, Installing submodules] 
